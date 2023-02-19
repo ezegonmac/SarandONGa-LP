@@ -19,15 +19,16 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) &
 	$mail->Port=587; //specify SMTP Port
 	$mail->SMTPSecure="tls"; // Enable TLS encryption, `ssl` also accepted
 	$mail->SMTPAuth=true; // Enable SMTP authentication
-	$mail->Username="your_email@gmail.com";  // Your Mail
+	$mail->Username="isppgrupo12@gmail.com";  // Your Mail
 	$mail->Password="Your App Password"; // Your app password
+	// TODO: ADD PASSWORD
 
-	$mail->setFrom($email, $name);  
-	$mail->addAddress("your_email@gmail.com", "your name"); // (Your Mail) An email address that will receive the email with the output of the form
+	$mail->setFrom($email, $name);
+	$mail->addAddress("isppgrupo12@gmail.com", "Sarandonga"); // (Your Mail) An email address that will receive the email with the output of the form
 
 	$mail->IsHTML(true); // Set email format to HTML
 
-	$mail->Subject = "(Elora) New Contact Info";
+	$mail->Subject = "(Sarandonga) Nuevo Mensaje de Contacto";
 	$mail->Body = $html;
 
 	$mail->SMTPOptions=array('ssl'=>array(
@@ -40,10 +41,10 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) &
 	
 	if($mail->send()){
 		//echo "Mail send";
-		$msg="Message Sent";
+		$msg="Mensaje enviado correctamente";
 	}else{
 		//echo "Error occur";
-		$msg="Error Occur";
+		$msg="Error al enviar el mensaje";
 	}
 	echo $msg;
 }
