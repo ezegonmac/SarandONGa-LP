@@ -545,10 +545,6 @@ header #menu-btn:hover{
     border: 1rem solid var(--purple);
 }
 
-.team .manager {
-    border: 1rem solid var(--yellow);
-}
-
 .team .image img{
     width: 100%;
     height: 100%;
