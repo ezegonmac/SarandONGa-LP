@@ -24,6 +24,11 @@
 
 :root{
     --purple: #BC8CF2;
+    --pink: #E7C4E4;
+    --yellow: #F1D746;
+    --green: #C4E8CE;
+    --red: #EEBEBE;
+    --blue: #C4D5E7;
     --black: #000000;
     --white: #F7F5F2;
     --grey: #DFDFDE;
@@ -538,6 +543,10 @@ header #menu-btn:hover{
     width: 32rem;
     text-align: center;
     border: 1rem solid var(--purple);
+}
+
+.team .manager {
+    border: 1rem solid var(--yellow);
 }
 
 .team .image img{
