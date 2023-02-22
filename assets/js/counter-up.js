@@ -2,7 +2,8 @@ $(document).ready(function(){
 
     $('.count').each(function() {
       var $this = $(this),
-          countTo = $this.attr('data-count');
+          countTo = $this.attr('data-count'),
+          type = $this.attr('data-type');
       $({ countNum: $this.text()}).animate({
         countNum: countTo
       },
@@ -12,7 +13,11 @@ $(document).ready(function(){
           $this.text(Math.floor(this.countNum));
         },
         complete: function() {
-          $this.text(this.countNum + '+');
+          var text = $this.text();
+          if(type != 'exact') {
+            text += '+';
+          }
+          $this.text(text);
         }
       });
     });

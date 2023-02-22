@@ -51,6 +51,7 @@
         <!-- Navbar -->
         <nav class="navbar">
             <a href="#home">inicio</a>
+            <a href="#about">nosotros</a>
             <a href="#team">equipo</a>
             <a href="#destrezas">destrezas</a>
             <a href="#contact">contacto</a>
@@ -73,7 +74,7 @@
                 <div class="text">
                     <h2>Hola!</h1>
                     <h1>Somos un equipo de <br> <span class="typing-text"></span></h1>
-                    <p></p>
+                    <p>comprometidos en crear soluciones digitales que faciliten la labor de las ONG. Nos apasiona utilizar la tecnología para hacer una diferencia en el mundo y estamos comprometidos en crear soluciones innovadoras que las ayuden a alcanzar sus objetivos.</p>
                     <a href="#team" class="btn">Conócenos <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -88,11 +89,60 @@
 
     <!-------------------- Home Area (End) -------------------->
 
+    <!-------------------- About Area (Start) -------------------->
+    <section class="about" id="about">
+
+        <div class="heading">
+            <h2>Sobre <span>Nosotros</span></h2>
+        </div>
+
+        <div class="box-container">
+    
+            <div class="content">
+
+                <h2>¿A qué nos dedicamos?</h2>
+<p>Nos especializamos en desarrollar soluciones digitales que ayudan a las ONG a gestionar de manera eficiente sus recursos y a alcanzar sus objetivos. </p>
+<p>En particular, estamos trabajando en una solución software innovadora que permitirá a las organizaciones gestionar sus voluntarios y sus turnos, controlar su stock, gestionar las subvenciones, monitorizar a los beneficiarios y gestionar a sus trabajadores. </p>
+<p>Nuestra solución proporcionará a las ONG una plataforma integral que les permitirá ahorrar tiempo y recursos valiosos, simplificando su gestión y permitiéndoles centrarse en su misión principal: <span>hacer una diferencia positiva en el mundo.</span></p>
+   
+                <div class="about-info">
+
+                    <div class="counting">
+                                    
+                        <div class="box">
+                            <h1 class="count" data-count="15" data-type="exact">15</h1>
+                            <h3>integrantes</h3>
+                        </div>
+
+                        <div class="box">
+                            <h1 class="count" data-count="5">4+</h1>
+                            <h3>años de experiencia</h3>
+                        </div>
+                        
+                        <div class="box">
+                            <h1 class="count" data-count="151">150+</h1>
+                            <h3>proyectos completados</h3>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="image">
+                <img src="assets/images/logo-lg.png" alt="About-Image" />
+            </div>
+            
+        </div>
+
+    </section>
+    <!-------------------- About Area (End) -------------------->
 
 
 
     
-    <!-------------------- About Area (Start) -------------------->
+    <!-------------------- Team Area (Start) -------------------->
     <section class="team" id="team">
 
         <div class="heading">
@@ -591,7 +641,7 @@
 
 
     </section>
-    <!-------------------- About Area (End) -------------------->
+    <!-------------------- Team Area (End) -------------------->
 
     <!-------------------- Services Area (Start) -------------------->
     <section class="service" id="destrezas">
@@ -1248,7 +1298,7 @@
         var typed = new Typed('.typing-text', {
 
             strings: ['Desarrolladores', 'Estudiantes', 'Diseñadores'],
-            typeSpeed: 120,
+            typeSpeed: 100,
             loop: true
         });
     </script>
@@ -1259,17 +1309,20 @@
           jQuery('#msg').html('');
           jQuery('#submit').html('Please wait');
           jQuery('#submit').attr('disabled',true);
-          jQuery.ajax({
-              url:'assets/php/submit.php',
-              type:'post',
-              data:jQuery('#contactUs-Form').serialize(),
-              success:function(result){
-                  jQuery('#msg').html(result);
-                  jQuery('#submit').html('Submit');
-                  jQuery('#submit').attr('disabled',false);
-                  jQuery('#contactUs-Form')[0].reset();
-              }
-          });
+
+            alert("Lo sentimos, el mensaje no se ha podido enviar con éxito. \n Intentaremos solucionarlo lo antes posible. \n Mientras tanto puedes contactarnos por email o redes sociales.")
+
+          // jQuery.ajax({
+          //    url:'assets/php/submit.php',
+          //    type:'post',
+          //    data:jQuery('#contactUs-Form').serialize(),
+          //    success:function(result){
+          //        jQuery('#msg').html(result);
+          //        jQuery('#submit').html('Submit');
+          //        jQuery('#submit').attr('disabled',false);
+          //        jQuery('#contactUs-Form')[0].reset();
+          //    }
+          //});
           e.preventDefault();
         });
     </script>

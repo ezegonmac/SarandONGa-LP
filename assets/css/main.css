@@ -337,7 +337,8 @@ header #menu-btn:hover{
     justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    gap: 2rem;
+    row-gap: 5rem;
+    column-gap: 5rem;
     padding: 2rem 0;
 }
 
@@ -348,7 +349,6 @@ header #menu-btn:hover{
 
 .about .image img{
     width: 100%;
-    border: 1rem solid var(--purple);
 }
 
 .about .content{
@@ -364,10 +364,16 @@ header #menu-btn:hover{
 }
 
 .about .content > p{
-    font-size: 1.6rem;
+    font-size: 2.1rem;
     color: var(--grey);
     line-height: 1.6;
     padding-bottom: 1rem;
+    margin-bottom: 2;
+}
+
+.about p span {
+    font-size: 2rem;
+    color: var(--purple);
 }
 
 .about .content .about-info{
@@ -383,6 +389,7 @@ header #menu-btn:hover{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-top: 2rem;
 }
 
 .about .content .about-info .info{
