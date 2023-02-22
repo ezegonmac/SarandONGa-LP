@@ -38,7 +38,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap');
 
 :root{
-    --purple: #BA9DFA;
+    --purple: #BC8CF2;
+    --dark-purple: #9159d1;
     --pink: #E7C4E4;
     --yellow: #F1D746;
     --green: #C4E8CE;
@@ -83,6 +84,10 @@ body{
 section{
     padding: 5rem 5%;
     overflow: hidden;
+}
+
+a {
+    color: var(--dark-purple);
 }
 
 ::-webkit-scrollbar{
@@ -162,7 +167,7 @@ section{
     display: inline-block;
     padding: 1rem 2rem;
     font-size: 1.8rem;
-    font-wight: 800;
+    font-weight: 800;
     color: var(--purple);
     background-color: transparent;
     border: 0.2rem solid var(--purple);
