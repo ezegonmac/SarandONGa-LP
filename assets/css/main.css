@@ -35,10 +35,10 @@
 }
 
 /*--------------------- 0- Global CSS (Start) ---------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap');
 
 :root{
-    --purple: #BC8CF2;
+    --purple: #BA9DFA;
     --pink: #E7C4E4;
     --yellow: #F1D746;
     --green: #C4E8CE;
@@ -50,7 +50,7 @@
 }
 
 *{
-    font-family: 'HelveticaNowText-Bold', sans-serif;
+    font-family: 'Inter', sans-serif;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin: 0;
@@ -162,6 +162,7 @@ section{
     display: inline-block;
     padding: 1rem 2rem;
     font-size: 1.8rem;
+    font-wight: 800;
     color: var(--purple);
     background-color: transparent;
     border: 0.2rem solid var(--purple);
