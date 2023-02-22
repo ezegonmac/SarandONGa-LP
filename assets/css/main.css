@@ -17,7 +17,22 @@
 13- Scroll-Top Area CSS
 
 */
+/* ## Fonts
+--------------------------------------------- */
 
+@font-face {
+	font-family: 'HelveticaNowText-Bold';
+		src: url('https://github.com/ISPP-12/SarandONGa-LP/blob/main/assets/HelveticaNowText-Bold.v1.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ABC Whyte Unlicensed Trial Black';
+		src: url('https://github.com/ISPP-12/SarandONGa-LP/blob/main/assets/ABCWhyte-Black-Trial.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
 /*--------------------- 0- Global CSS (Start) ---------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
@@ -35,7 +50,7 @@
 }
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'HelveticaNowText-Bold', sans-serif;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin: 0;
