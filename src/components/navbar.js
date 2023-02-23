@@ -2,13 +2,13 @@
 const Navbar = () => {
     
     return (
-        <header class="header">
+        <header className="header">
 
-            <a class="logo" href="#home">
+            <a className="logo" href="#home">
                 <h2>SARANDONGA</h2> 
             </a>
 
-            <nav class="navbar">
+            <nav className="navbar">
                 <a href="#home">Inicio</a>
                 <a href="#about">Nosotros</a>
                 <a href="#team">Equipo</a>
@@ -16,7 +16,7 @@ const Navbar = () => {
                 <a href="#contact">Contacto</a>
             </nav>
 
-            <div class="fas fa-bars" id="menu-btn"></div>
+            <div className="fas fa-bars" id="menu-btn"></div>
             
         </header>
     );

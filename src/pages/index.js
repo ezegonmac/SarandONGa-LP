@@ -40,8 +40,9 @@ export default function Home() {
       {/* <!-- JQuery --> */}
       <script src="/vendors/jquery/jquery-3.6.0.js"></script>
 
+      {/* Not used */}
       {/* <!-- SWIPER JS --> */}
-      <script src="/vendors/swiper/swiper.js"></script>
+      {/* <script src="/vendors/swiper/swiper.js"></script> */}
 
       {/* <!-- Magnific-Popup JS --> */}
       <script src="/vendors/magnific-popup/jquery.magnific-popup.js"></script>
@@ -50,15 +51,16 @@ export default function Home() {
       <script src="/vendors/typed/typed.js"></script>
 
       {/* <!-- Custom Script File --> */}
-      <script src="/js/script.js"></script>
-      <script src="/js/scroll-spy.js"></script>
-      <script src="/js/counter-up.js"></script>
-      <script src="/js/portfolio.js"></script>
-      <script src="/js/testi-slider.js"></script>
-      <script src="/js/blog-slider.js"></script>
-      <script src="/js/typed.js"></script>
-      <script src="/js/contact.js"></script>
+      <script src="/utils/script.js"></script>
+      <script src="/utils/scroll-spy.js"></script>
+      <script src="/utils/portfolio.js"></script>
+      <script src="/utils/contact.js"></script>
+      {/* <script src="/utils/counter-up.js"></script> */}
+      {/* <script src="/utils/typed.js"></script> */}
 
+      {/* Not used */}
+      {/* <script src="/utils/blog-slider.js"></script> */}
+      {/* <script src="/utils/testi-slider.js"></script> */}
     </>
   )
 }

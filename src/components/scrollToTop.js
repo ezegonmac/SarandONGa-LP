@@ -2,8 +2,8 @@
 const ScrollToTop = () => {
     
     return (
-        <a href="#home" class="scroll-top">
-            <i class="fas fa-angle-up"></i>
+        <a href="#home" className="scroll-top">
+            <i className="fas fa-angle-up"></i>
         </a>
     );
 }
