@@ -35,27 +35,29 @@ export default function Home() {
       <SectionContact/>
       <Footer/>
 
+{/* TODO: REMOVE */}
+
       {/* <!-- JQuery --> */}
-      <script src="assets/vendors/jquery/jquery-3.6.0.js"></script>
+      <script src="/vendors/jquery/jquery-3.6.0.js"></script>
 
       {/* <!-- SWIPER JS --> */}
-      <script src="assets/vendors/swiper/swiper.js"></script>
+      <script src="/vendors/swiper/swiper.js"></script>
 
       {/* <!-- Magnific-Popup JS --> */}
-      <script src="assets/vendors/magnific-popup/jquery.magnific-popup.js"></script>
+      <script src="/vendors/magnific-popup/jquery.magnific-popup.js"></script>
 
       {/* <!-- Typed JS --> */}
-      <script src="assets/vendors/typed/typed.js"></script>
+      <script src="/vendors/typed/typed.js"></script>
 
       {/* <!-- Custom Script File --> */}
-      <script src="assets/js/script.js"></script>
-      <script src="assets/js/scroll-spy.js"></script>
-      <script src="assets/js/counter-up.js"></script>
-      <script src="assets/js/portfolio.js"></script>
-      <script src="assets/js/testi-slider.js"></script>
-      <script src="assets/js/blog-slider.js"></script>
-      <script src="assets/js/typed.js"></script>
-      <script src="assets/js/contact.js"></script>
+      <script src="/js/script.js"></script>
+      <script src="/js/scroll-spy.js"></script>
+      <script src="/js/counter-up.js"></script>
+      <script src="/js/portfolio.js"></script>
+      <script src="/js/testi-slider.js"></script>
+      <script src="/js/blog-slider.js"></script>
+      <script src="/js/typed.js"></script>
+      <script src="/js/contact.js"></script>
 
     </>
   )

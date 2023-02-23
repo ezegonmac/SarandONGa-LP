@@ -22,14 +22,14 @@
 
 @font-face {
 	font-family: 'HelveticaNowText-Bold';
-		src: url('https://github.com/ISPP-12/SarandONGa-LP/blob/main/assets/HelveticaNowText-Bold.v1.ttf') format('truetype');
+		src: url('/fonts/HelveticaNowText-Bold.ttf') format('truetype');;
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'ABC Whyte Unlicensed Trial Black';
-		src: url('https://github.com/ISPP-12/SarandONGa-LP/blob/main/assets/ABCWhyte-Black-Trial.otf') format('truetype');
+		src: url('/fonts/ABCWhyte-Black-Trial.otf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }

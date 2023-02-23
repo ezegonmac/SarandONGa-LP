@@ -9,11 +9,11 @@ const Navbar = () => {
             </a>
 
             <nav class="navbar">
-                <a href="#home">inicio</a>
-                <a href="#about">nosotros</a>
-                <a href="#team">equipo</a>
-                <a href="#destrezas">destrezas</a>
-                <a href="#contact">contacto</a>
+                <a href="#home">Inicio</a>
+                <a href="#about">Nosotros</a>
+                <a href="#team">Equipo</a>
+                <a href="#destrezas">Destrezas</a>
+                <a href="#contact">Contacto</a>
             </nav>
 
             <div class="fas fa-bars" id="menu-btn"></div>
