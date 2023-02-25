@@ -53,7 +53,7 @@ export default function Home() {
       <script src="/utils/script.js"></script>
       <script src="/utils/scroll-spy.js"></script>
       <script src="/utils/portfolio.js"></script>
-      <script src="/utils/contact.js"></script>
+      {/* <script src="/utils/contact.js"></script> */}
       {/* <script src="/utils/counter-up.js"></script> */}
       {/* <script src="/utils/typed.js"></script> */}
 

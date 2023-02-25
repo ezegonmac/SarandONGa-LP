@@ -1,3 +1,4 @@
+import ContactForm from '@/components/contactForm.js';
 
 const SectionContact = () => {
 
@@ -53,17 +54,7 @@ const SectionContact = () => {
                 </div>
             </div>
     
-            <form method="post" className="contact-form" id="contactUs-Form">
-                    
-                <input type="text" name="name" className="box" id="name" placeholder="Nombre" required />
-                <input type="email" name="email" className="box" id="email" placeholder="Email" required />
-                <input type="text" name="subject" className="box" id="subject" placeholder="Asunto" required />
-                <textarea cols="30" rows="10" name="comment" id="comment" className="box" placeholder="Mensaje"></textarea>
-                <button type="submit" className="btn" name="submit" id="submit">Enviar</button>
-                
-                <span className="alert" id="msg"></span>
-                
-            </form>
+            <ContactForm/>
             
         </div>
 
