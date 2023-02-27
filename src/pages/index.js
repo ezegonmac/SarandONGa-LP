@@ -6,7 +6,7 @@ import SectionHome from '../components/SectionHome'
 import SectionAbout from '../components/SectionAbout'
 import SectionTeam from '../components/SectionTeam'
 import SectionSkills from '../components/SectionSkills'
-import SectionContact from '../components/sectionContact'
+import SectionContact from '../components/SectionContact'
 import Footer from '../components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
