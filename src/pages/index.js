@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import ScrollToTop from '@/components/ScrollToTop'
-import Navbar from '@/components/Navbar'
-import SectionHome from '@/components/SectionHome'
-import SectionAbout from '@/components/SectionAbout'
-import SectionTeam from '@/components/SectionTeam'
-import SectionSkills from '@/components/SectionSkills'
-import SectionContact from '@/components/sectionContact'
-import Footer from '@/components/Footer'
+import ScrollToTop from '../components/ScrollToTop'
+import Navbar from '../components/Navbar'
+import SectionHome from '../components/SectionHome'
+import SectionAbout from '../components/SectionAbout'
+import SectionTeam from '../components/SectionTeam'
+import SectionSkills from '../components/SectionSkills'
+import SectionContact from '../components/sectionContact'
+import Footer from '../components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
